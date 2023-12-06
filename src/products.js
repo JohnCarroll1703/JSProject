@@ -1,6 +1,7 @@
 import prd1 from './assets/gloves.jpg';
 import prd2 from './assets/2.jpg';
 import prd3 from './assets/3.jpg';
+import prd4 from './assets/5.jpg';
 
 export const PRODUCTS = [
     {
@@ -20,5 +21,11 @@ export const PRODUCTS = [
             productName: "Gorka ATACS-FG Winter Uniform",
             price: 5000.00,
             productImage: prd3,
+    },
+    {
+            id: 4,
+            productName: "Kersey Winter Boots",
+            price: 3637.00,
+            productImage: prd4,
     },
 ];
