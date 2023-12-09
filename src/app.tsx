@@ -6,6 +6,9 @@ import { Shop } from './pages/shop/shop.js';
 import { Cart } from './pages/cart/cart.jsx';
 import { ShopCategory } from './pages/ShopCategory.jsx';
 import { Product } from './pages/shop/product.js';
+import { Equipment } from './pages/equipment/equipment.js';
+import { LoginSignUp } from './pages/loginsignup/login_signup.js';
+
 
 function App() {
   return (
@@ -15,7 +18,8 @@ function App() {
             <Routes>
                 <Route path="/" element={<Shop />}/>
                 <Route path="/cart" element={<Cart />}/>
-                <Route path="/equipment" element={<ShopCategory category="equipment"/>}/>
+                <Route path="/equipment" element={<Equipment />}/>
+                <Route path="/login_signup" element={<LoginSignUp />}/>
                 <Route path="/clothes" element={<ShopCategory category="cloth"/>}/>
 
                 <Route path="/product" element={<Product />} >

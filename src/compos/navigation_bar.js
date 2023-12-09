@@ -21,7 +21,7 @@ export const Navbar = () => {
                 <li onClick={()=>{setMenu("mainpage")}}> <Link to='/start'> Main </Link>{menu==="main"?<h/>:<></>} </li>
             </ul>
            <div className="nav-login-cart">
-                <button>Login</button>
+                <button onClick={()=>{setMenu("login")}}><Link to='/login_signup'>Login </Link>{menu==="login_signup"?<h/>:<></>}</button>
 {/*                 <img src={cart_icon} alt="" /> */}
 {/*                 <div className="nav-count-cart">0</div> */}
            </div>
