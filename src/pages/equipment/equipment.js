@@ -4,6 +4,6 @@ export const Equipment = () => {
 
     return (
 
-        <div>Hello, World! Zaebal!</div>
+        <div>Hello, World!! RU: Привет, мир! </div>
     );
 };
